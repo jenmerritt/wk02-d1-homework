@@ -38,6 +38,4 @@ class TestCodeclanStudent < MiniTest::Test
     assert_equal("I love Ruby", student.favourite_language())
   end
 
-
-
 end

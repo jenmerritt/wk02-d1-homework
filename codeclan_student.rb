@@ -30,5 +30,4 @@ class CodeclanStudent
     return "I love #{@language}"
   end
 
-
-end
+end 
