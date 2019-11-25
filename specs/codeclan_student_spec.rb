@@ -10,6 +10,11 @@ class TestCodeclanStudent < MiniTest::Test
     assert_equal("Jen", student.student_name())
   end
 
+  def test_can_get_cohort
+    student = CodeclanStudent.new("Steve", "E37")
+    assert_equal("E37", student.student_cohort())
+  end
+
 
 
 end

@@ -6,8 +6,13 @@ class CodeclanStudent
   end
 
   def student_name
-    return @student_name 
+    return @student_name
   end
+
+  def student_cohort
+    return @cohort 
+  end
+
 
 
 end
